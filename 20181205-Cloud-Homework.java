@@ -18,17 +18,16 @@ public class Phrase
         /* implementation not shown */
         String rstr=currentPhrase;
         int index;
-        int i=str.length();
-       for(int i=0; i<=n;i++)
+        int i=str.length()-1;
+       for(int m=0; m<=n;m++)
         {index=rstr.indexOf(str);
-         rster=rster.substring(indx+str.length());
-         if(i==str.length()&&index=-1)
+         rstr=rster.substring(index+i);
+         if(i==str.length()-1&&index==-1)
          {return -1;}
-         else(if(index=!-1))
-             {i=i+index;}
-             else
-             {return i;}
+         else
+         {i=i+index;}
         }
+        return i;
         
     }
 
