@@ -13,23 +13,22 @@ public class Phrase
      *  Precondition: str.length() > 0 and n > 0
      *  Postcondition: the current phrase is not modified.
      */
-    public static int findNthOccurrence(String str, int n)
+    public static int findNthOccurrence(String str, int n)aa,2
     {
         /* implementation not shown */
         String rstr=currentPhrase;
-        int index;
-        int i=str.length();
-       for(int i=0; i<=n;i++)
+        int index=0;
+        int i=str.length()-1;
+       for(int m=0; m<n;m++)
         {index=rstr.indexOf(str);
-         rster=rster.substring(indx+str.length());
-         if(i==str.length()&&index=-1)
+         rstr=rstr.substring(index+i);
+         if(i==str.length()-1&&index==-1)
          {return -1;}
-         else(if(index=!-1))
-             {i=i+index;}
-             else
-             {return i;}
+         else
+         {i=i+index;}
         }
-        
+        return index
+         
     }
 
     /** Modifies the current phrase by replacing the nth occurrence of str with repl.
