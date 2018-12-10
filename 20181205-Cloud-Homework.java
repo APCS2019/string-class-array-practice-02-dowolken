@@ -13,7 +13,7 @@ public class Phrase
      *  Precondition: str.length() > 0 and n > 0
      *  Postcondition: the current phrase is not modified.
      */
-    public static int findNthOccurrence(String str, int n)aa,2
+    public static int findNthOccurrence(String str, int n)
     {
         /* implementation not shown */
         String rstr=currentPhrase;
