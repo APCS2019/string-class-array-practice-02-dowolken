@@ -28,7 +28,33 @@ public class Phrase
          {i=i+index;}
         }
         return index
-         
+            
+            /*another*/
+        int start=0;
+        int loc=-1;
+        int count=0;
+        String c=currentPrase;
+        while(c.substring(start).indexOf(str))
+            {loc=c.indexOf(str);
+            count++;
+            if(count==n)
+              {return loc;}
+            start=loc+1;
+             c=c.substring(strat);
+            }
+        return loc;
+               
+        /*another*/
+        int count=0;
+        int loc=currentPhrase.indexOf(str);
+        String c=currentPhrase;
+        while(count==n)
+          {
+           if((index=-1)
+             {return }
+            count++;
+           }
+        return loc;
     }
 
     /** Modifies the current phrase by replacing the nth occurrence of str with repl.
