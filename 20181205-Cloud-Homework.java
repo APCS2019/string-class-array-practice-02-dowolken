@@ -46,13 +46,14 @@ public class Phrase
                
         /*another*/
         int count=0;
-        int loc=currentPhrase.indexOf(str);
+        int loc=-1;
         String c=currentPhrase;
         while(count==n)
-          {
+          {loc=c.indexOf(str);
            if((index=-1)
              {return }
             count++;
+           c=c.substring(loc+1);
            }
         return loc;
     }
